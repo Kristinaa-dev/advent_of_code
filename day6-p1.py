@@ -13,6 +13,5 @@ for i in range(len(t)):
         r = t[i]-j
         if d[i] < s*r:
             w += 1
-        # print(w)
     total *= w
 print(total)
